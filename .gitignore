@@ -1,0 +1,34 @@
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Node & Expo
+node_modules/
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
