@@ -1,0 +1,35 @@
+name: Contracts Test Suite
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'contracts/**'
+      - '.github/workflows/contracts.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'contracts/**'
+
+jobs:
+  forge-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+
+      - name: Build Contracts
+        run: |
+          cd contracts
+          forge build
+
+      - name: Run Forge Tests
+        run: |
+          cd contracts
+          forge test -vv

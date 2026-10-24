@@ -1,0 +1,241 @@
+{
+  "currency": "INR",
+  "authority": "Reserve Bank of India",
+  "series": "Mahatma Gandhi (New) Series",
+  "denominations": {
+    "10": {
+      "value": 10,
+      "base_color_name": "Chocolate Brown",
+      "hsv_range": {
+        "h_min": 8,
+        "h_max": 25,
+        "s_min": 60,
+        "v_min": 60
+      },
+      "dimensions_mm": {
+        "width": 123,
+        "height": 63,
+        "aspect_ratio": 1.952,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": false,
+        "inscriptions": ["RBI", "BHARAT"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_10"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    },
+    "20": {
+      "value": 20,
+      "base_color_name": "Greenish Yellow",
+      "hsv_range": {
+        "h_min": 25,
+        "h_max": 50,
+        "s_min": 50,
+        "v_min": 60
+      },
+      "dimensions_mm": {
+        "width": 129,
+        "height": 63,
+        "aspect_ratio": 2.048,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": false,
+        "inscriptions": ["RBI", "BHARAT"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_20"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    },
+    "50": {
+      "value": 50,
+      "base_color_name": "Fluorescent Blue",
+      "hsv_range": {
+        "h_min": 90,
+        "h_max": 125,
+        "s_min": 50,
+        "v_min": 60
+      },
+      "dimensions_mm": {
+        "width": 135,
+        "height": 66,
+        "aspect_ratio": 2.045,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": false,
+        "inscriptions": ["RBI", "BHARAT"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_50"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    },
+    "100": {
+      "value": 100,
+      "base_color_name": "Lavender",
+      "hsv_range": {
+        "h_min": 125,
+        "h_max": 155,
+        "s_min": 40,
+        "v_min": 60
+      },
+      "dimensions_mm": {
+        "width": 142,
+        "height": 66,
+        "aspect_ratio": 2.152,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": true,
+        "inscriptions": ["RBI", "BHARAT", "100"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_100"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    },
+    "200": {
+      "value": 200,
+      "base_color_name": "Bright Yellow",
+      "hsv_range": {
+        "h_min": 20,
+        "h_max": 38,
+        "s_min": 90,
+        "v_min": 110
+      },
+      "dimensions_mm": {
+        "width": 146,
+        "height": 66,
+        "aspect_ratio": 2.212,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": true,
+        "inscriptions": ["RBI", "BHARAT", "200"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_200"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    },
+    "500": {
+      "value": 500,
+      "base_color_name": "Stone Grey",
+      "hsv_range": {
+        "h_min": 15,
+        "h_max": 45,
+        "s_min": 15,
+        "v_min": 70
+      },
+      "dimensions_mm": {
+        "width": 150,
+        "height": 66,
+        "aspect_ratio": 2.273,
+        "aspect_ratio_tolerance": 0.08
+      },
+      "security_thread": {
+        "present": true,
+        "position_x_ratio": 0.44,
+        "width_ratio": 0.02,
+        "color_shift": true,
+        "inscriptions": ["RBI", "BHARAT", "500"]
+      },
+      "watermark_window": {
+        "x_min_ratio": 0.05,
+        "x_max_ratio": 0.30,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85,
+        "expected_features": ["gandhi_portrait", "electrotype_500"]
+      },
+      "portrait_region": {
+        "x_min_ratio": 0.48,
+        "x_max_ratio": 0.78,
+        "y_min_ratio": 0.15,
+        "y_max_ratio": 0.85
+      },
+      "serial_regex": "^[0-9]{2}[A-Z]\\s?[0-9]{6}$",
+      "dual_serial": true,
+      "see_through_register": true
+    }
+  }
+}

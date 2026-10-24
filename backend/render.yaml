@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: mony-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    region: oregon
+    healthCheckPath: /v1/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: MONAD_RPC_URL
+        value: https://testnet-rpc.monad.xyz
+      - key: CHAIN_ID
+        value: 10143
+      - key: TREASURY_ADDRESS
+        sync: false
+      - key: EXCHANGE_ADDRESS
+        sync: false
+      - key: VERIFIER_SIGNER_KEY
+        sync: false
+      - key: RELAYER_KEY
+        sync: false
+      - key: QUOTE_SIGNER_KEY
+        sync: false
+      - key: CHALLENGE_SECRET
+        generateValue: true
+      - key: SERVER_SALT
+        generateValue: true
+      - key: DEMO_INR_PER_MON
+        value: "8500.0"
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: COINGECKO_API_KEY
+        sync: false

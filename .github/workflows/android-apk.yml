@@ -1,0 +1,67 @@
+name: Build Android APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: app/package.json
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: 17
+
+      - name: Set up Expo CLI
+        uses: expo/expo-github-action@v8
+        with:
+          expo-version: latest
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Install App Dependencies
+        run: |
+          cd app
+          npm ci
+
+      - name: Build Android APK with EAS
+        run: |
+          cd app
+          eas build --platform android --profile preview --non-interactive --local --output=./builds/mony.apk
+        env:
+          EXPO_PUBLIC_API_URL: ${{ secrets.EXPO_PUBLIC_API_URL }}
+          EXPO_PUBLIC_CHAIN_ID: 10143
+          EXPO_PUBLIC_TREASURY_ADDRESS: ${{ secrets.EXPO_PUBLIC_TREASURY_ADDRESS }}
+          EXPO_PUBLIC_EXCHANGE_ADDRESS: ${{ secrets.EXPO_PUBLIC_EXCHANGE_ADDRESS }}
+          EXPO_PUBLIC_EXPLORER_URL: https://testnet.monadexplorer.com
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mony-release-apk
+          path: app/builds/mony.apk
+          retention-days: 14
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: app/builds/mony.apk
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

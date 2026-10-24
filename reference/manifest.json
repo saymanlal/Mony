@@ -1,0 +1,402 @@
+[
+  {
+    "path": "reference/genuine_10_noteA_daylight",
+    "label": "genuine",
+    "denomination": 10,
+    "serial": "01A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_10_noteA_indoor",
+    "label": "genuine",
+    "denomination": 10,
+    "serial": "01A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_10_noteB_daylight",
+    "label": "genuine",
+    "denomination": 10,
+    "serial": "01B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_10_noteB_indoor",
+    "label": "genuine",
+    "denomination": 10,
+    "serial": "01B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_20_noteA_daylight",
+    "label": "genuine",
+    "denomination": 20,
+    "serial": "02A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_20_noteA_indoor",
+    "label": "genuine",
+    "denomination": 20,
+    "serial": "02A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_20_noteB_daylight",
+    "label": "genuine",
+    "denomination": 20,
+    "serial": "02B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_20_noteB_indoor",
+    "label": "genuine",
+    "denomination": 20,
+    "serial": "02B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_50_noteA_daylight",
+    "label": "genuine",
+    "denomination": 50,
+    "serial": "05A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_50_noteA_indoor",
+    "label": "genuine",
+    "denomination": 50,
+    "serial": "05A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_50_noteB_daylight",
+    "label": "genuine",
+    "denomination": 50,
+    "serial": "05B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_50_noteB_indoor",
+    "label": "genuine",
+    "denomination": 50,
+    "serial": "05B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_100_noteA_daylight",
+    "label": "genuine",
+    "denomination": 100,
+    "serial": "10A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_100_noteA_indoor",
+    "label": "genuine",
+    "denomination": 100,
+    "serial": "10A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_100_noteB_daylight",
+    "label": "genuine",
+    "denomination": 100,
+    "serial": "10B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_100_noteB_indoor",
+    "label": "genuine",
+    "denomination": 100,
+    "serial": "10B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_200_noteA_daylight",
+    "label": "genuine",
+    "denomination": 200,
+    "serial": "20A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_200_noteA_indoor",
+    "label": "genuine",
+    "denomination": 200,
+    "serial": "20A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_200_noteB_daylight",
+    "label": "genuine",
+    "denomination": 200,
+    "serial": "20B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_200_noteB_indoor",
+    "label": "genuine",
+    "denomination": 200,
+    "serial": "20B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_500_noteA_daylight",
+    "label": "genuine",
+    "denomination": 500,
+    "serial": "50A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_500_noteA_indoor",
+    "label": "genuine",
+    "denomination": 500,
+    "serial": "50A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_500_noteB_daylight",
+    "label": "genuine",
+    "denomination": 500,
+    "serial": "50B 584920",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/genuine_500_noteB_indoor",
+    "label": "genuine",
+    "denomination": 500,
+    "serial": "50B 584920",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "ACCEPT"
+  },
+  {
+    "path": "reference/screen_negative_10_phone",
+    "label": "screen_negative",
+    "denomination": 10,
+    "serial": "01S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_10_monitor",
+    "label": "screen_negative",
+    "denomination": 10,
+    "serial": "01M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_20_phone",
+    "label": "screen_negative",
+    "denomination": 20,
+    "serial": "02S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_20_monitor",
+    "label": "screen_negative",
+    "denomination": 20,
+    "serial": "02M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_50_phone",
+    "label": "screen_negative",
+    "denomination": 50,
+    "serial": "05S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_50_monitor",
+    "label": "screen_negative",
+    "denomination": 50,
+    "serial": "05M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_100_phone",
+    "label": "screen_negative",
+    "denomination": 100,
+    "serial": "10S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_100_monitor",
+    "label": "screen_negative",
+    "denomination": 100,
+    "serial": "10M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_200_phone",
+    "label": "screen_negative",
+    "denomination": 200,
+    "serial": "20S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_200_monitor",
+    "label": "screen_negative",
+    "denomination": 200,
+    "serial": "20M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_500_phone",
+    "label": "screen_negative",
+    "denomination": 500,
+    "serial": "50S 888123",
+    "conditions": "screen, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/screen_negative_500_monitor",
+    "label": "screen_negative",
+    "denomination": 500,
+    "serial": "50M 999456",
+    "conditions": "screen, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_10_color",
+    "label": "print_negative",
+    "denomination": 10,
+    "serial": "01P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_10_photocopy",
+    "label": "print_negative",
+    "denomination": 10,
+    "serial": "01C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_20_color",
+    "label": "print_negative",
+    "denomination": 20,
+    "serial": "02P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_20_photocopy",
+    "label": "print_negative",
+    "denomination": 20,
+    "serial": "02C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_50_color",
+    "label": "print_negative",
+    "denomination": 50,
+    "serial": "05P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_50_photocopy",
+    "label": "print_negative",
+    "denomination": 50,
+    "serial": "05C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_100_color",
+    "label": "print_negative",
+    "denomination": 100,
+    "serial": "10P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_100_photocopy",
+    "label": "print_negative",
+    "denomination": 100,
+    "serial": "10C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_200_color",
+    "label": "print_negative",
+    "denomination": 200,
+    "serial": "20P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_200_photocopy",
+    "label": "print_negative",
+    "denomination": 200,
+    "serial": "20C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_500_color",
+    "label": "print_negative",
+    "denomination": 500,
+    "serial": "50P 777321",
+    "conditions": "print, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/print_negative_500_photocopy",
+    "label": "print_negative",
+    "denomination": 500,
+    "serial": "50C 666789",
+    "conditions": "print, indoor, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/duplicate_test_100_rescan",
+    "label": "duplicate",
+    "denomination": 100,
+    "serial": "10A 102938",
+    "conditions": "genuine, daylight, tilt",
+    "expected_decision": "REJECT"
+  },
+  {
+    "path": "reference/duplicate_test_500_rescan",
+    "label": "duplicate",
+    "denomination": 500,
+    "serial": "50A 102938",
+    "conditions": "genuine, indoor, tilt",
+    "expected_decision": "REJECT"
+  }
+]
